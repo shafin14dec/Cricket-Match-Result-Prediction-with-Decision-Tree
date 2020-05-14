@@ -30,7 +30,9 @@ Apart from the teams which were participated the tournament, venues and tosses a
 ![Figure 2 : Probability of CSK](images/445_csk.jpg)
 ![Figure 2 : Probability of KXIP](images/445_kxip.jpg)
 And also draw the pi-chart of generalized probability for winning match by winning toss. I saw the probability of Winning the toss and match is 50.4%.
+
 ![Figure 5 : Genralised probbaility](images/445_toss.jpg)
+
 Another important factor is the venue. I took top 2 team and analyzed based on number of matches won against each other and how venue affects them. I found that CSK has won most matches against RCB in MA Chidambaram Stadium, Chepauk, Chennai. On the other hand, RCB has not won any match with CSK in stadiums St George's Park and Wankhede Stadium, but won matches with CSK in Kingsmead, New Wanderers Stadium. It does prove that chances of CSK winning is more in Chepauk stadium when played against RCB. It proves venue is important feature in predictability.
 ![Figure 6 : Insight for venues](images/445_venue.jpg)
 
