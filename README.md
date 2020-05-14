@@ -1,4 +1,4 @@
-# Road Image Semantic Segmentation with YOLACT++
+# Cricket Match Result Prediction with Decision Tree
 
 
 ## Abstract
@@ -12,7 +12,6 @@ The dataset for this project, matches.csv contains data of the Indian Premier Le
 
 ## Methodology
 I used Jupyter Notebook to do this project which has inbuilt python. I used Scikit learn and numpy, pandas and matplot libraries. First I tried to load the data and visualized the data. I saw that all the fields are not filled up. So in winner column, which values are NaN, I replaced it with draw. Then I encoded the team name with their initials and then encoded initials with ids. I used label encoding to encode the city, venue and toss decision into various indexes. Then I analyzed the toss winner and match winner data. I figured out that, toss winning played an important role to win the match for those teams. Then I check if the null values are completed as I encoded the data.
-### Output Images
 ![Figure 1 : Comparison of toss winner & match winner](images/445_1.jpg)
 
 
@@ -25,6 +24,7 @@ I took 5 random data from the IPL 2019 and store it into test.csv file for testi
 | KKR | MI | 3 | MI | 3 | 0 | 05-May | MI | MI |
 |CSK| MI | 7 | CSK | 7 | 1 | 07-May | MI | CSK |
 |DC| CSK | 22 | CSK | 24 | 1 | 10-May | CSK | CSK |
+
 Apart from the teams which were participated the tournament, venues and tosses also can play the important role. So I draw pi-chart for various teams of their probability of winning or losing the game with toss.
 ![Figure 2 : Probability of MI](images/445_mi.jpg)
 ![Figure 2 : Probability of CSK](images/445_csk.jpg)
